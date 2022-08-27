@@ -14,5 +14,5 @@ provider "google" {
 
   project = "lab-devops-cloud-rodrigo"
   region  = "us-east4"
-  zone    = "us-east4-a"
+  zone    = "us-east4-c"
 }
