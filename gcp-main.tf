@@ -1,9 +1,9 @@
-resource "google_app_engine_application" "app" {
+resource "google_app_engine_application" "app-devopslab-rotecnet" {
   project     = "lab-devops-cloud-rodrigo"
   location_id = "us-central"
 }
 
-resource "google_artifact_registry_repository" "my-repo" {
+resource "google_artifact_registry_repository" "my-repo-devopslab-rotecnet" {
   location = "us-central1"
   repository_id = "labdevops"
   description = "Imagens Docker"
